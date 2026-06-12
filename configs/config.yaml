@@ -1,0 +1,60 @@
+# ============================================================
+# configs/config.yaml
+# ============================================================
+
+random_seed: 42
+
+data:
+  tweets_drive:     "data/tweets_drive/"
+  politicians_csv:  "data/politicians_draft1.csv"
+  engagement_excel: "data/celeb_pol_engagement_df.xlsx"
+  celebs_csv:       "data/200823_patriarchy_final_celebs.csv"
+  influencers_json: "data/influencers_list_meta.json"
+  trans_text_dir:   "data/trans_text/"
+
+outputs:
+  base_dir:         "outputs/"
+  interactions_dir: "outputs/interactions/"
+  topic_models_dir: "outputs/topical_models/"
+  plots_dir:        "outputs/plots/"
+  texts_dir:        "outputs/texts/"
+
+date_filter:
+  start: "2019-03-01"
+  end:   "2020-11-30"
+
+politician_purge_list: "purge_list.txt"
+
+politicians_per_party: 1000
+
+btm:
+  min_topic_range: 6
+  max_topic_range: 9
+  topic_step:      3
+  iterations:      40
+  max_df:          0.95
+  min_df:          5
+
+phrases:
+  min_count:        5
+  bigram_threshold: 60
+  trigram_threshold: 60
+
+embeddings:
+  model_name: "glove-twitter-50"
+  dim:        50
+
+clustering:
+  n_clusters: 4
+  linkage:    "average"
+
+viz:
+  palette:
+    greetings:     "teal"
+    non-greetings: "darkorange"
+  interaction_palette:
+    mention:  "blueviolet"
+    quote:    "skyblue"
+    reply:    "hotpink"
+    retweet:  "orange"
+  dpi: 300
