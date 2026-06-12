@@ -104,16 +104,4 @@ Run notebooks **in order**:
 - Pinned dependency versions in `requirements.txt`
 - Pre-trained embeddings: `glove-twitter-50` (auto-downloaded via `gensim.downloader`)
 
----
 
-## Tests
-
-```bash
-pytest tests/
-```
-
----
-
-## License
-
-MIT
