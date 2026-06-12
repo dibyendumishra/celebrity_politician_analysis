@@ -1,6 +1,8 @@
 # Voting With The Stars Paper Code
 
+
 This repository constitutes the code accompanying the paper [Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India](https://dl.acm.org/doi/10.1145/3512981) published at CSCW 2022
+
 ---
 
 ## Project Structure
