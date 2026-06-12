@@ -112,4 +112,8 @@ Run notebooks **in order**:
 pytest tests/
 ```
 
+---
 
+## License
+
+MIT
