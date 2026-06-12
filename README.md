@@ -97,11 +97,35 @@ Run notebooks **in order**:
 
 ---
 
-## Reproducibility
 
 - Python **3.8+**
 - Random seed fixed in `configs/config.yaml` (`random_seed: 42`)
 - Pinned dependency versions in `requirements.txt`
 - Pre-trained embeddings: `glove-twitter-50` (auto-downloaded via `gensim.downloader`)
+
+---
+## Citation
+If you find the work useful in your research, please consider citing the paper:
+```
+@article{10.1145/3512981,
+author = {Kommiya Mothilal, Ramaravind and Mishra, Dibyendu and Nishal, Sachita and Lalani, Faisal M. and Pal, Joyojeet},
+title = {Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India},
+year = {2022},
+issue_date = {April 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {6},
+number = {CSCW1},
+url = {https://doi.org/10.1145/3512981},
+doi = {10.1145/3512981},
+journal = {Proc. ACM Hum.-Comput. Interact.},
+month = apr,
+articleno = {134},
+numpages = {29},
+keywords = {India, celebrities, partisanship, politics, twitter-engagement}
+}
+```
+---
+
 
 
